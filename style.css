@@ -1,0 +1,17 @@
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 1em;
+	border-bottom: 2px var (--clr-gray-light);
+}
+
+.btn-add:active,
+.btn-add:hover {
+	background-color: var(--clr-primary-hover);
+}
+
+main {
+	margin-top: 1em;
+}
