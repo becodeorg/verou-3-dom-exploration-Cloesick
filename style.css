@@ -7,6 +7,14 @@ header {
 	border-bottom: 2px var (--clr-gray-light);
 }
 
+body {
+	font-family: "Courier New", Courier, monospace;
+	font-weight: bold;
+	border-radius: 0.2em;
+	outline: none;
+	transition: all 100ms ease-in;
+}
+
 .btn-add:active,
 .btn-add:hover {
 	background-color: var(--clr-primary-hover);
