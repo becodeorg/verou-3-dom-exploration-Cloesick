@@ -1,4 +1,4 @@
-const SURVIVAL_HORROR = "survival-horor";
+const SURVIVAL_HORROR = "survival-horror";
 const OPEN_WORLD = "open-world";
 const ACTION_ADVENTURE = "action-adventure";
 const GRAPHIC_ADVENTURE = "graphic-adventure";
@@ -135,7 +135,6 @@ for (game of gameOfTheYear) {
 	newCardElement.appendChild(newCoverElement);
 	newCardElement.appendChild(newGameElement);
 	newCardElement.appendChild(newGenreContainer);
-	newCardElement.appendChild(newDescriptionElement);
 	newCardElement.appendChild(document.createElement("hr"));
 	newCardElement.appendChild(newDataContainer);
 
@@ -155,7 +154,7 @@ function showAll() {
 
 const buttons = document.querySelectorAll(".filter-button");
 buttons.forEach((button) => {
-	button.addEventlistener("click", () => {
+	button.addEventListener("click", () => {
 		const cards = document.querySelectorAll(".card");
 		for (card of cards) {
 			const genreToFilter = button.textContent;
