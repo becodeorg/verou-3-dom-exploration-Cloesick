@@ -6,7 +6,7 @@ const SINGLE_PLAYER = "single-player";
 const INTERACTIVE_DRAMA = "interactive-drama";
 
  
-export const gameOfTheYear = [
+export const gameOfTheYear =[
 	{
 		game: "Resident Evil Village",
 		creator: "Quentin Tarantino",
@@ -32,8 +32,8 @@ export const gameOfTheYear = [
 	},
 
 	{
-		game: "God of War ",
-		creator: "Sony Santa Monica ",
+		game: "God of War",
+		creator: "Sony Santa Monica",
 		releaseYear: 2018,
 		cover: "images/God_of_War_4.jpg",
 		genre: ["action-adventure"],
@@ -52,7 +52,7 @@ export const gameOfTheYear = [
 		creator: "Blizzard Entertainment",
 		releaseYear: 2016,
 		cover: "images/Overwatch.jpg",
-		genre: ["RPG "],
+		genre: ["RPG"],
 	},
 
 	{
@@ -87,4 +87,3 @@ export const gameOfTheYear = [
 		genre: ["graphic-adventure", "interactive-drama"],
 	},
 ];
-

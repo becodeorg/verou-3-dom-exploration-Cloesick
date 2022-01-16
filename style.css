@@ -9,6 +9,7 @@ body {
 	padding: 0 10px 20px;
 	font-family: "Gill Sans", sans-serif;
 	background-color: gray;
+	border: 1px solid black;
 }
 
 header {
@@ -70,11 +71,11 @@ header h1::first-line {
 	transition: all 0.1s;
 }
 
-.show-all-button {
+/* .show-all-button {
 	color: bisque;
 	background-color: lightgray;
 	border: 1px solid black;
-}
+} */
 
 .cards-container {
 	display: flex;
@@ -96,11 +97,12 @@ header h1::first-line {
 	background-color: white;
 }
 
-.cover-img {
+.cover{
 	width: 100%;
-	font-size: 200%;
-	font-family: "Times New Roman", Times, serif;
-	font-weight: 600;
+	display: flex;
+	border-radius: 15px;
+
+
 }
 
 .title,
@@ -122,10 +124,9 @@ header h1::first-line {
 	padding: 1px 5px;
 	text-transform: uppercase;
 	font-size: 0.6rem;
-	border-radius: 3px;
 	font-weight: 600;
 }
-
+.RPG,
 .show-all-button,
 .survival-horror,
 .open-world,
@@ -151,3 +152,21 @@ header h1::first-line {
 	align-items: center;
 	font-size: 0.8rem;
 }
+
+.game{
+	margin:auto 0
+}
+
+.game{
+	color: purple;
+	font-size: x-large;
+	font-family: 'Lucida sans', sans-serif;
+}
+
+.year{
+font-family: 'Courier New', Courier, monospace;
+color: purple;
+font-size: x-large;
+font: bold;
+}
+
